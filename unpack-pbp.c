@@ -8,7 +8,7 @@
 // me, or to join the forums at ps2dev.org. Thanks!
 
  #include <stdio.h>
- #include <malloc.h>
+ #include <stdlib.h>
 
  typedef struct { char signature[4]; int version; int offset[8]; } HEADER;
 
